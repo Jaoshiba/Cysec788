@@ -4,6 +4,7 @@ from meth import meth
 
 
 app = Flask(__name__)
+CORS(app)
 
 app.register_blueprint(meth)
 
